@@ -86,9 +86,9 @@ func Service(opts ...ServiceOption) schema.Annotation {
 		apply(&s)
 	}
 	// Default to generating all methods.
-	if s.Methods == 0 {
+	/* if s.Methods == 0 {
 		s.Methods = MethodAll
-	}
+	} */
 	return s
 }
 
