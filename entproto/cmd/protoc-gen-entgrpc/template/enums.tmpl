@@ -13,7 +13,7 @@
             return protoIdentNormalizeRegexp{{ $pbEnumIdent.GoName }}.ReplaceAllString(e, "_")
         }
 
-        func toProto{{ $pbEnumIdent.GoName }} (e {{ ident $entEnumIdent }}) {{ ident $pbEnumIdent }} {
+        func ToProto{{ $pbEnumIdent.GoName }} (e {{ ident $entEnumIdent }}) {{ ident $pbEnumIdent }} {
             if v, ok := {{ $pbEnumIdent.GoName }}_value[{{ qualify "strings" "ToUpper" }}({{ if not $omitPrefix }}"{{ $enumFieldPrefix }}" + {{ end }}protoIdentNormalize{{ $pbEnumIdent.GoName }}(string(e)))]; ok {
                 return {{ $pbEnumIdent | ident }}(v)
             }
