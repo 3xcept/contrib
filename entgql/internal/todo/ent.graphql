@@ -1,5 +1,13 @@
-directive @goField(forceResolver: Boolean, name: String, omittable: Boolean) on FIELD_DEFINITION | INPUT_FIELD_DEFINITION
-directive @goModel(model: String, models: [String!], forceGenerate: Boolean) on OBJECT | INPUT_OBJECT | SCALAR | ENUM | INTERFACE | UNION
+directive @goField(
+  forceResolver: Boolean
+  name: String
+  omittable: Boolean
+) on FIELD_DEFINITION | INPUT_FIELD_DEFINITION
+directive @goModel(
+  model: String
+  models: [String!]
+  forceGenerate: Boolean
+) on OBJECT | INPUT_OBJECT | SCALAR | ENUM | INTERFACE | UNION
 type BillProduct implements Node {
   id: ID!
   name: String!
@@ -198,7 +206,10 @@ enum CategoryOrderField {
 """
 CategoryStatus is enum for the field status
 """
-enum CategoryStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/category.Status") {
+enum CategoryStatus
+  @goModel(
+    model: "github.com/3xcept/contrib/entgql/internal/todo/ent/category.Status"
+  ) {
   ENABLED
   DISABLED
 }
@@ -411,7 +422,8 @@ input FriendshipWhereInput {
   createdAtLT: Time
   createdAtLTE: Time
 }
-type Group implements Node & NamedNode @hasPermissions(permissions: ["ADMIN","MODERATOR"]) {
+type Group implements Node & NamedNode
+  @hasPermissions(permissions: ["ADMIN", "MODERATOR"]) {
   id: ID!
   name: String!
   users(
@@ -525,7 +537,8 @@ scalar Map
 An object with an ID.
 Follows the [Relay Global Object Identification Specification](https://relay.dev/graphql/objectidentification.htm)
 """
-interface Node @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent.Noder") {
+interface Node
+  @goModel(model: "github.com/3xcept/contrib/entgql/internal/todo/ent.Noder") {
   """
   The id of the object.
   """
@@ -664,7 +677,10 @@ enum OrderDirection {
   """
   DESC
 }
-type Organization implements Node @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent.Workspace") {
+type Organization implements Node
+  @goModel(
+    model: "github.com/3xcept/contrib/entgql/internal/todo/ent.Workspace"
+  ) {
   id: ID!
   name: String!
 }
@@ -1068,7 +1084,10 @@ enum TodoOrderField {
 """
 TodoStatus is enum for the field status
 """
-enum TodoStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/todo.Status") {
+enum TodoStatus
+  @goModel(
+    model: "github.com/3xcept/contrib/entgql/internal/todo/ent/todo.Status"
+  ) {
   IN_PROGRESS
   COMPLETED
   PENDING

@@ -7,7 +7,7 @@ A protoc plugin to generate ent schemas from .proto files.
 Install the plugin:
 
 ```shell
-go get entgo.io/contrib/entproto/cmd/protoc-gen-ent
+go get github.com/3xcept/contrib/entproto/cmd/protoc-gen-ent
 ```
 
 Get `entproto/cmd/protoc-gen-ent/options/opts.proto` from this repository and place it in your project. For example,
@@ -40,8 +40,8 @@ syntax = "proto3";
 package entpb;
 
 ++import "options/opts.proto";
- 
-option go_package = "github.com/yourorg/project/ent/proto/entpb";  
+
+option go_package = "github.com/yourorg/project/ent/proto/entpb";
 
 message User {
 ++  option (ent.schema).gen = true; // <-- tell protoc-gen-ent you want to generate a schema from this message
@@ -90,7 +90,7 @@ directory contains many usage examples. Here are the main ones you should consid
 Message options configure message/schema wide behavior and are backed by the [Schema](options/ent/opts.proto#L7)
 message:
 
-* `gen` (bool) - whether to generate a schema from this message definition
+- `gen` (bool) - whether to generate a schema from this message definition
 
 ```protobuf
 message Basic {
@@ -99,7 +99,7 @@ message Basic {
 }
 ```
 
-* `name` (string) - specify the generated ent type name.
+- `name` (string) - specify the generated ent type name.
 
 ```protobuf
 message CustomName {
@@ -108,7 +108,7 @@ message CustomName {
 }
 ```
 
-Will generate: 
+Will generate:
 
 ```go
 type Rotemtam struct {
@@ -130,6 +130,7 @@ message Pet {
 ```
 
 Will generate:
+
 ```go
 field.String("name").Optional()
 ```
@@ -148,10 +149,13 @@ message Cat {
   Human owner = 2 [(ent.edge) = {}];
 }
 ```
+
 Will define an edge from the Cat type to the Human type named "owner":
+
 ```go
 edge.To("owner", Human.Type).Unique()
 ```
+
 To create the inverse (virtual) relation we add `ref: "owner"` to the Human's `cats` field definition:
 
 ```go
@@ -163,6 +167,7 @@ message Human {
 ```
 
 Because, the field is `repeated`, a non-unique edge is created:
+
 ```go
 edge.From("cats", Cat.Type).Ref("owner")
 ```
