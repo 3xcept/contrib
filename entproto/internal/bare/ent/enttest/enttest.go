@@ -5,11 +5,11 @@ package enttest
 import (
 	"context"
 
-	"entgo.io/contrib/entproto/internal/bare/ent"
+	"github.com/3xcept/contrib/entproto/internal/bare/ent"
 	// required by schema hooks.
-	_ "entgo.io/contrib/entproto/internal/bare/ent/runtime"
+	_ "github.com/3xcept/contrib/entproto/internal/bare/ent/runtime"
 
-	"entgo.io/contrib/entproto/internal/bare/ent/migrate"
+	"github.com/3xcept/contrib/entproto/internal/bare/ent/migrate"
 	"entgo.io/ent/dialect/sql/schema"
 )
 

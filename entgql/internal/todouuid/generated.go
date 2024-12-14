@@ -12,15 +12,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"entgo.io/contrib/entgql"
-	ent1 "entgo.io/contrib/entgql/internal/todo/ent"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/customstruct"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/durationgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todouuid/ent"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/category"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/schema/uuidgql"
+	"github.com/3xcept/contrib/entgql"
+	ent1 "github.com/3xcept/contrib/entgql/internal/todo/ent"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/schema/customstruct"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/schema/durationgql"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/todo"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/category"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/schema/uuidgql"
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
 	"github.com/google/uuid"
@@ -1614,7 +1614,7 @@ enum CategoryOrderField {
 """
 CategoryStatus is enum for the field status
 """
-enum CategoryStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/category.Status") {
+enum CategoryStatus @goModel(model: "github.com/3xcept/contrib/entgql/internal/todo/ent/category.Status") {
   ENABLED
   DISABLED
 }
@@ -1941,7 +1941,7 @@ scalar Map
 An object with an ID.
 Follows the [Relay Global Object Identification Specification](https://relay.dev/graphql/objectidentification.htm)
 """
-interface Node @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent.Noder") {
+interface Node @goModel(model: "github.com/3xcept/contrib/entgql/internal/todo/ent.Noder") {
   """
   The id of the object.
   """
@@ -2080,7 +2080,7 @@ enum OrderDirection {
   """
   DESC
 }
-type Organization implements Node @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent.Workspace") {
+type Organization implements Node @goModel(model: "github.com/3xcept/contrib/entgql/internal/todo/ent.Workspace") {
   id: ID!
   name: String!
 }
@@ -2484,7 +2484,7 @@ enum TodoOrderField {
 """
 TodoStatus is enum for the field status
 """
-enum TodoStatus @goModel(model: "entgo.io/contrib/entgql/internal/todo/ent/todo.Status") {
+enum TodoStatus @goModel(model: "github.com/3xcept/contrib/entgql/internal/todo/ent/todo.Status") {
   IN_PROGRESS
   COMPLETED
   PENDING
@@ -5809,7 +5809,7 @@ func (ec *executionContext) _GroupEdge_node(ctx context.Context, field graphql.C
 		if data, ok := tmp.(*ent.Group); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *entgo.io/contrib/entgql/internal/todouuid/ent.Group`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/3xcept/contrib/entgql/internal/todouuid/ent.Group`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)

@@ -3,7 +3,7 @@
 package user
 
 import (
-	"entgo.io/contrib/entoas/internal/pets/predicate"
+	"github.com/3xcept/contrib/entoas/internal/pets/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 )

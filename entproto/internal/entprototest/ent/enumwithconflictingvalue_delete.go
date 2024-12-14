@@ -5,8 +5,8 @@ package ent
 import (
 	"context"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/enumwithconflictingvalue"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/enumwithconflictingvalue"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

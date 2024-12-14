@@ -15,10 +15,10 @@
 package schema
 
 import (
-	"entgo.io/contrib/entgql"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/field"
+	"github.com/3xcept/contrib/entgql"
 )
 
 // Workspace defines the workspace type schema.

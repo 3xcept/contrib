@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/verysecret"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent/predicate"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent/verysecret"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

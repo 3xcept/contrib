@@ -21,8 +21,8 @@ package todo
 import (
 	"context"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo/ent"
+	"github.com/3xcept/contrib/entgql"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent"
 )
 
 // Node is the resolver for the node field.

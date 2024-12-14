@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/category"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/portal"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/category"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/portal"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

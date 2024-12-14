@@ -19,9 +19,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"entgo.io/contrib/entgql"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
+	"github.com/3xcept/contrib/entgql"
 	"github.com/stretchr/testify/require"
 )
 

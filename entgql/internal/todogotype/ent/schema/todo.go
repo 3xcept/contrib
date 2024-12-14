@@ -15,10 +15,10 @@
 package schema
 
 import (
-	todoschema "entgo.io/contrib/entgql/internal/todo/ent/schema"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
+	todoschema "github.com/3xcept/contrib/entgql/internal/todo/ent/schema"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 )
 
 // Todo defines the todo type schema.

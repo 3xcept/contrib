@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/messagewithints"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/messagewithints"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

@@ -23,12 +23,12 @@ import (
 	"log"
 	"reflect"
 
-	"entgo.io/contrib/entgql/internal/todofed/ent/migrate"
+	"github.com/3xcept/contrib/entgql/internal/todofed/ent/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/entgql/internal/todofed/ent/category"
-	"entgo.io/contrib/entgql/internal/todofed/ent/todo"
-	"entgo.io/contrib/entgql/internal/todofed/ent/verysecret"
+	"github.com/3xcept/contrib/entgql/internal/todofed/ent/category"
+	"github.com/3xcept/contrib/entgql/internal/todofed/ent/todo"
+	"github.com/3xcept/contrib/entgql/internal/todofed/ent/verysecret"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

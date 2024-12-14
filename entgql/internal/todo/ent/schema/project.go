@@ -15,9 +15,9 @@
 package schema
 
 import (
-	"entgo.io/contrib/entgql"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/edge"
+	"github.com/3xcept/contrib/entgql"
 )
 
 // Project holds the schema definition for the GroupTodo entity.

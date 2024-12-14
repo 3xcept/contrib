@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/nilexample"
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/nilexample"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/predicate"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

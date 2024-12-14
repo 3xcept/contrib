@@ -9,10 +9,10 @@ import (
 	"log"
 	"reflect"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/migrate"
+	"github.com/3xcept/contrib/schemast/internal/loadtest/ent/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/message"
+	"github.com/3xcept/contrib/schemast/internal/loadtest/ent/message"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 )

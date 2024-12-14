@@ -17,10 +17,10 @@ package schema
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
 	"entgo.io/ent"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
+	"github.com/3xcept/contrib/entgql/internal/todopulid/ent/schema/pulid"
 )
 
 // Friendship holds the edge schema definition of the Friendship relationship.

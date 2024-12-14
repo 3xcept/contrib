@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/todo"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/todo"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

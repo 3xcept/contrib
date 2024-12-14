@@ -4,9 +4,9 @@ package entpb
 import (
 	context "context"
 	base64 "encoding/base64"
-	entproto "entgo.io/contrib/entproto"
-	ent "entgo.io/contrib/entproto/internal/altdir/ent"
-	user "entgo.io/contrib/entproto/internal/altdir/ent/user"
+	entproto "github.com/3xcept/contrib/entproto"
+	ent "github.com/3xcept/contrib/entproto/internal/altdir/ent"
+	user "github.com/3xcept/contrib/entproto/internal/altdir/ent/user"
 	sqlgraph "entgo.io/ent/dialect/sql/sqlgraph"
 	fmt "fmt"
 	codes "google.golang.org/grpc/codes"

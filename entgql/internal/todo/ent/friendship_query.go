@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todo/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todo/ent/user"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/friendship"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/predicate"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

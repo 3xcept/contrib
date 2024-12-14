@@ -17,12 +17,12 @@ package schema
 import (
 	"time"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/customstruct"
 	"entgo.io/ent"
 	"entgo.io/ent/schema"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
+	"github.com/3xcept/contrib/entgql"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/schema/customstruct"
 )
 
 // Todo defines the todo type schema.

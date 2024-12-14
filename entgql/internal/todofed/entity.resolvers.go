@@ -21,7 +21,7 @@ package todofed
 import (
 	"context"
 
-	"entgo.io/contrib/entgql/internal/todofed/ent"
+	"github.com/3xcept/contrib/entgql/internal/todofed/ent"
 )
 
 // FindTodoByID is the resolver for the findTodoByID field.

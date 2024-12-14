@@ -5,7 +5,7 @@ package validmessage
 import (
 	"time"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/predicate"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"github.com/google/uuid"
 )

@@ -19,9 +19,9 @@ package category
 import (
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent/predicate"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent/schema/bigintgql"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 )

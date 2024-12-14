@@ -3,7 +3,7 @@
 package ent
 
 import (
-	"entgo.io/contrib/entproto/internal/entprototest/ent/schema"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/schema"
 )
 
 // The init function reads all schema descriptors with runtime code

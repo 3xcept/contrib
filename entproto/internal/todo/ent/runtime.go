@@ -3,9 +3,9 @@
 package ent
 
 import (
-	"entgo.io/contrib/entproto/internal/todo/ent/attachment"
-	"entgo.io/contrib/entproto/internal/todo/ent/schema"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/attachment"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/schema"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/user"
 	"github.com/google/uuid"
 )
 

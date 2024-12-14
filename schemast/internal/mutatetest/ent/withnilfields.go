@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/schemast/internal/mutatetest/ent/withnilfields"
+	"github.com/3xcept/contrib/schemast/internal/mutatetest/ent/withnilfields"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

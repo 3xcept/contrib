@@ -9,12 +9,12 @@ import (
 	"log"
 	"reflect"
 
-	"entgo.io/contrib/entoas/internal/pets/migrate"
+	"github.com/3xcept/contrib/entoas/internal/pets/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/entoas/internal/pets/category"
-	"entgo.io/contrib/entoas/internal/pets/pet"
-	"entgo.io/contrib/entoas/internal/pets/user"
+	"github.com/3xcept/contrib/entoas/internal/pets/category"
+	"github.com/3xcept/contrib/entoas/internal/pets/pet"
+	"github.com/3xcept/contrib/entoas/internal/pets/user"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

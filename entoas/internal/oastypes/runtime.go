@@ -3,8 +3,8 @@
 package oastypes
 
 import (
-	"entgo.io/contrib/entoas/internal/oastypes/oastypes"
-	"entgo.io/contrib/entoas/internal/oastypes/schema"
+	"github.com/3xcept/contrib/entoas/internal/oastypes/oastypes"
+	"github.com/3xcept/contrib/entoas/internal/oastypes/schema"
 	"github.com/google/uuid"
 )
 

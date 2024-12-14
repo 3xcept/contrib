@@ -5,8 +5,8 @@ package simple
 import (
 	"context"
 
-	"entgo.io/contrib/entoas/internal/simple/category"
-	"entgo.io/contrib/entoas/internal/simple/predicate"
+	"github.com/3xcept/contrib/entoas/internal/simple/category"
+	"github.com/3xcept/contrib/entoas/internal/simple/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

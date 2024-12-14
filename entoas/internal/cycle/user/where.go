@@ -3,7 +3,7 @@
 package user
 
 import (
-	"entgo.io/contrib/entoas/internal/cycle/predicate"
+	"github.com/3xcept/contrib/entoas/internal/cycle/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 )

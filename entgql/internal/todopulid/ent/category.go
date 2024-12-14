@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/category"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/3xcept/contrib/entgql/internal/todopulid/ent/category"
+	"github.com/3xcept/contrib/entgql/internal/todopulid/ent/schema/pulid"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

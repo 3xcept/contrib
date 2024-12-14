@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
+	"github.com/3xcept/contrib/entproto"
 	"github.com/stretchr/testify/require"
 )
 

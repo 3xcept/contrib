@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"testing"
 
-	"entgo.io/contrib/entproto"
-	"entgo.io/contrib/entproto/internal/todo/ent/enttest"
+	"github.com/3xcept/contrib/entproto"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/enttest"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

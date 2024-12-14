@@ -9,10 +9,10 @@ import (
 	"log"
 	"reflect"
 
-	"entgo.io/contrib/entoas/internal/cycle/migrate"
+	"github.com/3xcept/contrib/entoas/internal/cycle/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/entoas/internal/cycle/user"
+	"github.com/3xcept/contrib/entoas/internal/cycle/user"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

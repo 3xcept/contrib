@@ -19,9 +19,9 @@ import (
 	"log"
 	"path/filepath"
 
-	"entgo.io/contrib/entproto"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
+	"github.com/3xcept/contrib/entproto"
 )
 
 func main() {

@@ -5,8 +5,8 @@ package ent
 import (
 	"context"
 
-	"entgo.io/contrib/schemast/internal/loadtest/ent/message"
-	"entgo.io/contrib/schemast/internal/loadtest/ent/predicate"
+	"github.com/3xcept/contrib/schemast/internal/loadtest/ent/message"
+	"github.com/3xcept/contrib/schemast/internal/loadtest/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

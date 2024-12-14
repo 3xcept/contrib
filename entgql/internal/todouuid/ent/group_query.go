@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math"
 
-	"entgo.io/contrib/entgql/internal/todouuid/ent/group"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/user"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/group"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/predicate"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

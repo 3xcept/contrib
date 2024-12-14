@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/onetomany"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/onetomany"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

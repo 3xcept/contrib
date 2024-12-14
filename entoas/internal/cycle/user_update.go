@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entoas/internal/cycle/predicate"
-	"entgo.io/contrib/entoas/internal/cycle/user"
+	"github.com/3xcept/contrib/entoas/internal/cycle/predicate"
+	"github.com/3xcept/contrib/entoas/internal/cycle/user"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

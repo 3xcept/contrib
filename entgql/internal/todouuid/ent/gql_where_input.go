@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/billproduct"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/category"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/group"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/predicate"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/todo"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/user"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/billproduct"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/category"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/friendship"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/group"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/predicate"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/todo"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/user"
 	"github.com/google/uuid"
 )
 

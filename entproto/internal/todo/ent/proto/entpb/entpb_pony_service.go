@@ -3,8 +3,8 @@ package entpb
 
 import (
 	context "context"
-	entproto "entgo.io/contrib/entproto"
-	ent "entgo.io/contrib/entproto/internal/todo/ent"
+	entproto "github.com/3xcept/contrib/entproto"
+	ent "github.com/3xcept/contrib/entproto/internal/todo/ent"
 	sqlgraph "entgo.io/ent/dialect/sql/sqlgraph"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

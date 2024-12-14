@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/user"
+	"github.com/3xcept/contrib/entgql/internal/todopulid/ent/friendship"
+	"github.com/3xcept/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/3xcept/contrib/entgql/internal/todopulid/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

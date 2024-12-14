@@ -22,10 +22,10 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql"
-	ent1 "entgo.io/contrib/entgql/internal/todo/ent"
-	"entgo.io/contrib/entgql/internal/todo/ent/todo"
-	"entgo.io/contrib/entgql/internal/todogotype/ent"
+	"github.com/3xcept/contrib/entgql"
+	ent1 "github.com/3xcept/contrib/entgql/internal/todo/ent"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/todo"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent"
 )
 
 // Types is the resolver for the types field.

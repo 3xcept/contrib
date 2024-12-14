@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"testing"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/enttest"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/todo"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent/enttest"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent/todo"
 
 	"entgo.io/ent/dialect"
 	"github.com/99designs/gqlgen/client"

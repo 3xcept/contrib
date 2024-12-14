@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todouuid/ent"
-	"entgo.io/contrib/entgql/internal/todouuid/ent/todo"
+	"github.com/3xcept/contrib/entgql"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/todo"
 	"github.com/google/uuid"
 )
 

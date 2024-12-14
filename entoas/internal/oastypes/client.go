@@ -9,10 +9,10 @@ import (
 	"log"
 	"reflect"
 
-	"entgo.io/contrib/entoas/internal/oastypes/migrate"
+	"github.com/3xcept/contrib/entoas/internal/oastypes/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/entoas/internal/oastypes/oastypes"
+	"github.com/3xcept/contrib/entoas/internal/oastypes/oastypes"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 )

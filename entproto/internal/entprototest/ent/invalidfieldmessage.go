@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/entprototest/ent/invalidfieldmessage"
-	"entgo.io/contrib/entproto/internal/entprototest/ent/schema"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/invalidfieldmessage"
+	"github.com/3xcept/contrib/entproto/internal/entprototest/ent/schema"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

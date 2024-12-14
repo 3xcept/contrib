@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"entgo.io/contrib/entproto"
-	"entgo.io/contrib/entproto/internal/todo/ent/user"
+	"github.com/3xcept/contrib/entproto"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/user"
 
-	"entgo.io/contrib/entproto/internal/todo/ent"
-	"entgo.io/contrib/entproto/internal/todo/ent/enttest"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/enttest"
 	"github.com/google/uuid"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"

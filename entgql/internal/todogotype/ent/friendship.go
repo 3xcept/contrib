@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todogotype/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todogotype/ent/user"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent/friendship"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent/user"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

@@ -21,8 +21,8 @@ import (
 	"errors"
 	"fmt"
 
-	"entgo.io/contrib/entgql/internal/todopulid/ent/schema/pulid"
-	"entgo.io/contrib/entgql/internal/todopulid/ent/verysecret"
+	"github.com/3xcept/contrib/entgql/internal/todopulid/ent/schema/pulid"
+	"github.com/3xcept/contrib/entgql/internal/todopulid/ent/verysecret"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

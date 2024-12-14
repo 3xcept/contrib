@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/category"
-	"entgo.io/contrib/entgql/internal/todo/ent/schema/schematype"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/category"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/schema/schematype"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

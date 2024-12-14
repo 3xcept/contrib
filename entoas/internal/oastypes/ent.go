@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"sync"
 
-	"entgo.io/contrib/entoas/internal/oastypes/oastypes"
+	"github.com/3xcept/contrib/entoas/internal/oastypes/oastypes"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"

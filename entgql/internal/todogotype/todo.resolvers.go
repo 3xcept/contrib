@@ -22,8 +22,8 @@ import (
 	"context"
 	"fmt"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todogotype/ent"
+	"github.com/3xcept/contrib/entgql"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent"
 )
 
 // TodosCount is the resolver for the todosCount field.

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/group"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/group"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 )

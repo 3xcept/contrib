@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"time"
 
-	"entgo.io/contrib/entgql/internal/todo/ent/friendship"
-	"entgo.io/contrib/entgql/internal/todo/ent/user"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/friendship"
+	"github.com/3xcept/contrib/entgql/internal/todo/ent/user"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
 )

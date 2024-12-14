@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"entgo.io/contrib/entgql"
-	"entgo.io/contrib/entgql/internal/todogotype/ent"
+	"github.com/3xcept/contrib/entgql"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent"
 )
 
 type NamedNode interface {

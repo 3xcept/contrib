@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
-	"entgo.io/contrib/entgql/internal/todo"
-	"entgo.io/contrib/entgql/internal/todogotype/ent"
+	"github.com/3xcept/contrib/entgql/internal/todo"
+	"github.com/3xcept/contrib/entgql/internal/todogotype/ent"
 
 	"github.com/99designs/gqlgen/graphql"
 )

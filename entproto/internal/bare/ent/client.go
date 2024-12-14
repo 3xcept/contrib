@@ -9,10 +9,10 @@ import (
 	"log"
 	"reflect"
 
-	"entgo.io/contrib/entproto/internal/bare/ent/migrate"
+	"github.com/3xcept/contrib/entproto/internal/bare/ent/migrate"
 	"entgo.io/ent"
 
-	"entgo.io/contrib/entproto/internal/bare/ent/user"
+	"github.com/3xcept/contrib/entproto/internal/bare/ent/user"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 )

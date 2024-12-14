@@ -1,4 +1,4 @@
-module entgo.io/contrib
+module github.com/3xcept/contrib
 
 go 1.22.5
 

@@ -5,8 +5,8 @@ package ent
 import (
 	"context"
 
-	"entgo.io/contrib/entproto/internal/todo/ent/predicate"
-	"entgo.io/contrib/entproto/internal/todo/ent/skipedgeexample"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/predicate"
+	"github.com/3xcept/contrib/entproto/internal/todo/ent/skipedgeexample"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"

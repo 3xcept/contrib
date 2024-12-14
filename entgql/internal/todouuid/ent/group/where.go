@@ -17,7 +17,7 @@
 package group
 
 import (
-	"entgo.io/contrib/entgql/internal/todouuid/ent/predicate"
+	"github.com/3xcept/contrib/entgql/internal/todouuid/ent/predicate"
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"github.com/google/uuid"
