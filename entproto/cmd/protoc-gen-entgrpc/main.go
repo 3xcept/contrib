@@ -18,6 +18,7 @@ import (
 	"embed"
 	"flag"
 	"fmt"
+	"google.golang.org/protobuf/types/pluginpb"
 	"path"
 	"strconv"
 	"strings"
@@ -42,6 +43,7 @@ func main() {
 	protogen.Options{
 		ParamFunc: flags.Set,
 	}.Run(func(plg *protogen.Plugin) error {
+		plg.SupportedFeatures = uint64(pluginpb.CodeGeneratorResponse_FEATURE_PROTO3_OPTIONAL)
 		g, err := entc.LoadGraph(*entSchemaPath, &gen.Config{})
 		if err != nil {
 			return err
